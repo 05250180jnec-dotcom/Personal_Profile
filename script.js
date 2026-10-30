@@ -136,7 +136,7 @@
     if (!validate()) return;
 
     // Opens the visitor's email app with the message pre-filled.
-    const to = "namgay.wangchuk@example.com";
+    const to = "05250180.jnec@rub.edu.bt";
     const subject = encodeURIComponent("Portfolio message from " + $("#name").value.trim());
     const body = encodeURIComponent(message.value.trim() + "\n\nFrom: " + $("#name").value.trim() + " (" + $("#email").value.trim() + ")");
     window.location.href = "mailto:" + to + "?subject=" + subject + "&body=" + body;
